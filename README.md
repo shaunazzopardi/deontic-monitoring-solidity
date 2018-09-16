@@ -1,6 +1,6 @@
 # deontic-monitoring-solidity
 
-Here we illustrate a case study in monitoring a Solidity smart contract with a deontic logic specification language. We consider a smart contract implementing a procurement process, involving a buyer and a seller that agree to certain terms (e.g. the minimum number of items that need to be ordered during the term of the contract) involving the procurement of goods.  This contract is specified formally and informally below.
+Here we illustrate a case study in monitoring a Solidity smart contract with a deontic logic specification language. We consider a smart contract implementing a procurement process, involving a buyer and a seller that agree to certain terms (e.g. the minimum number of items that need to be ordered during the term of the contract) involving the procurement of goods.  This contract is specified formally and informally below. We are currently working on an implementation of contractLarva (github.com/gordonpace/contractlarva) that can take as input such a deontic contract specification (with more code-like actions) for automated instrumented of a smart contract with a monitor checking for the deontic contract. 
 
 **procurement-simple.sol** is the Solidity smart contract implementing this procurement interaction between the buyer and the seller.
 
